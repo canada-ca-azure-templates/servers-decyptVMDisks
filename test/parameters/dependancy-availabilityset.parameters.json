@@ -6,7 +6,7 @@
             "value": [
                 {
                     "name": "test-as",
-                    "resourceGroup": "PwS2-validate-servers-decryptVMDisks-RG",
+                    "resourceGroup": "PwS2-validate-servers-decyptVMDisks-RG",
                     "faultDomains": 2,
                     "updateDomains": 3,
                     "sku": "Aligned",
