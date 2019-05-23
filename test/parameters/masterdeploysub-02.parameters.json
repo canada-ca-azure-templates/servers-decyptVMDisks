@@ -6,9 +6,15 @@
             "value": [
                 {
                     "name": "server",
-                    "resourceGroup": "PwS2-validate-servers-decryptVMDisks-RG",
+                    "resourceGroup": "PwS2-validate-servers-decyptVMDisks-RG",
                     "templateLink": "https://raw.githubusercontent.com/canada-ca-azure-templates/servers/20190506/template/azuredeploy.json",
                     "parametersFile": "dependancy-server.parameters.json"
+                },
+                {
+                    "name": "encrypt-server",
+                    "resourceGroup": "PwS2-validate-servers-decyptVMDisks-RG",
+                    "templateLink": "https://raw.githubusercontent.com/canada-ca-azure-templates/servers-encryptVMDisks/20190523/template/azuredeploy.json",
+                    "parametersFile": "validate.parameters.json"
                 }
             ]
         }
